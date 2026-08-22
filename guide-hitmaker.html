@@ -171,6 +171,8 @@
     font-size:14px;
   }
   .track-name{font-weight:600;font-size:16px;}
+  .track-link{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--accent);}
+  .track-link:hover{color:var(--accent-ink);}
   .track-goal{
     font-family:var(--font-mono);
     font-size:12px;
@@ -272,12 +274,33 @@
   }
   .formula-item b{color:var(--ink);font-weight:600;}
 
-  /* ---------- DOSSIER (deep dive, step 09) ---------- */
+  /* ---------- DOSSIER (deep dive, step 09) ----------
+     Deliberately fixed-palette panel (a "record-label plaque"),
+     not theme-reactive: it must read as a distinct zone on any host theme. */
   .dossier{
-    background:var(--surface);
-    border-top:1px solid var(--line-strong);
-    border-bottom:1px solid var(--line-strong);
-    padding:60px 0 64px;
+    --bg: #241610;
+    --surface: #2F1D14;
+    --ink: #F3E6D2;
+    --ink-soft: #C9B392;
+    --accent: #E8A33D;
+    --accent-ink: #F4C874;
+    --accent-2: #E2685A;
+    --line: #4A3424;
+    --line-strong: #6B4A30;
+    background:var(--bg);
+    color:var(--ink);
+    padding:64px 0 72px;
+    scroll-margin-top:20px;
+  }
+  .dossier-band{
+    font-family:var(--font-mono);
+    font-size:11px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:#241610;
+    background:var(--accent);
+    padding:8px 0;
+    text-align:center;
   }
   .dossier-eyebrow{
     font-family:var(--font-mono);
@@ -493,6 +516,7 @@
       <div class="meta-item"><b>Niveau</b>débutant → confirmé</div>
       <div class="meta-item"><b>Terrain</b>studio & réseaux</div>
     </div>
+    <p style="margin:22px 0 0;"><a href="#dossier" style="font-family:var(--font-mono);font-size:13px;color:var(--accent-ink);text-decoration:none;border-bottom:1px solid var(--accent);">→ Aller directement au dossier Business & droits (étape 09, approfondie)</a></p>
   </div>
 </div>
 
@@ -511,7 +535,7 @@
       <div class="track-row"><span class="track-num">06</span><span class="track-name">Test & itère</span><span class="track-goal">validé avant la sortie</span></div>
       <div class="track-row"><span class="track-num">07</span><span class="track-name">Stratégie de sortie</span><span class="track-goal">une vraie fenêtre de lancement</span></div>
       <div class="track-row"><span class="track-num">08</span><span class="track-name">Réseau & collabs</span><span class="track-goal">les bonnes personnes autour</span></div>
-      <div class="track-row"><span class="track-num">09</span><span class="track-name">Business & droits — dossier complet ↓</span><span class="track-goal">le hit protégé et payé</span></div>
+      <div class="track-row"><span class="track-num">09</span><a class="track-name track-link" href="#dossier">Business & droits — dossier complet ↓</a><span class="track-goal">le hit protégé et payé</span></div>
     </div>
   </div>
 
@@ -680,7 +704,8 @@
   </div>
 
   <!-- DOSSIER 09 — DEEP DIVE -->
-  <div class="dossier">
+  <div class="dossier" id="dossier">
+    <div class="dossier-band">Section approfondie — étape 09</div>
     <div class="wrap">
       <p class="dossier-eyebrow">Le dossier · Étape 09 approfondie</p>
       <h2>Business & droits : le dossier complet</h2>
