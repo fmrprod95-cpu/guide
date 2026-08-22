@@ -272,6 +272,129 @@
   }
   .formula-item b{color:var(--ink);font-weight:600;}
 
+  /* ---------- DOSSIER (deep dive, step 09) ---------- */
+  .dossier{
+    background:var(--surface);
+    border-top:1px solid var(--line-strong);
+    border-bottom:1px solid var(--line-strong);
+    padding:60px 0 64px;
+  }
+  .dossier-eyebrow{
+    font-family:var(--font-mono);
+    font-size:11.5px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--accent-2);
+    display:flex;align-items:center;gap:10px;
+    margin-bottom:14px;
+  }
+  .dossier-eyebrow::before{content:"";width:20px;height:1px;background:var(--accent-2);}
+  .dossier h2{font-size:clamp(28px,4.4vw,40px);}
+  .dossier-lede{font-size:17px;color:var(--ink-soft);max-width:66ch;}
+  .warn{
+    font-family:var(--font-mono);
+    font-size:13px;
+    color:var(--ink-soft);
+    border:1px solid var(--line-strong);
+    padding:14px 16px;
+    margin:20px 0 8px;
+  }
+  .subsection{
+    padding:32px 0;
+    border-top:1px solid var(--line);
+    display:grid;
+    grid-template-columns:100px 1fr;
+    gap:20px;
+  }
+  .subnum{
+    font-family:var(--font-mono);
+    font-size:14px;
+    color:var(--accent-2);
+    padding-top:2px;
+  }
+  .subsection h3{
+    font-family:var(--font-display);
+    font-weight:700;
+    font-size:21px;
+    margin:0 0 10px;
+  }
+  .subsection p{max-width:62ch;}
+  .split-table{
+    width:100%;
+    border-collapse:collapse;
+    margin:16px 0;
+    font-size:14.5px;
+  }
+  .split-table th, .split-table td{
+    text-align:left;
+    padding:10px 14px;
+    border:1px solid var(--line-strong);
+  }
+  .split-table th{
+    font-family:var(--font-mono);
+    font-size:11px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    font-weight:500;
+    background:var(--bg);
+  }
+  .split-table td b{
+    font-family:var(--font-mono);
+    color:var(--accent-2);
+  }
+  .table-scroll{overflow-x:auto;}
+  .rule-list{margin:14px 0 0;padding:0;list-style:none;}
+  .rule-list li{
+    position:relative;padding-left:20px;margin-bottom:9px;font-size:15px;
+  }
+  .rule-list li::before{
+    content:"";position:absolute;left:0;top:8px;width:8px;height:1px;background:var(--accent-2);
+  }
+  .glossary{
+    margin-top:14px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:1px;
+    background:var(--line-strong);
+    border:1px solid var(--line-strong);
+  }
+  .gterm{background:var(--surface);padding:16px 18px;}
+  .gterm dt{
+    font-family:var(--font-mono);
+    font-size:12.5px;
+    font-weight:600;
+    color:var(--accent-2);
+    margin-bottom:6px;
+  }
+  .gterm dd{margin:0;font-size:13.5px;color:var(--ink-soft);}
+  .final-checklist{
+    margin-top:14px;
+    border:1px solid var(--accent-2);
+    padding:22px 24px;
+  }
+  .final-checklist-title{
+    font-family:var(--font-mono);
+    font-size:11px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--accent-2);
+    margin-bottom:14px;
+  }
+  .final-checklist ul{list-style:none;margin:0;padding:0;}
+  .final-checklist li{
+    display:flex;gap:10px;align-items:flex-start;
+    font-size:14.5px;
+    margin-bottom:10px;
+  }
+  .final-checklist li::before{
+    content:"";
+    flex-shrink:0;
+    width:14px;height:14px;
+    margin-top:2px;
+    border:1px solid var(--accent-2);
+  }
+
   /* ---------- ROADMAP ---------- */
   .phases{
     display:grid;
@@ -350,6 +473,7 @@
     .phases{grid-template-columns:1fr;}
     .track-row{grid-template-columns:36px 1fr;}
     .track-goal{display:none;}
+    .subsection{grid-template-columns:1fr;gap:6px;}
   }
 </style>
 
@@ -387,7 +511,7 @@
       <div class="track-row"><span class="track-num">06</span><span class="track-name">Test & itère</span><span class="track-goal">validé avant la sortie</span></div>
       <div class="track-row"><span class="track-num">07</span><span class="track-name">Stratégie de sortie</span><span class="track-goal">une vraie fenêtre de lancement</span></div>
       <div class="track-row"><span class="track-num">08</span><span class="track-name">Réseau & collabs</span><span class="track-goal">les bonnes personnes autour</span></div>
-      <div class="track-row"><span class="track-num">09</span><span class="track-name">Business & droits</span><span class="track-goal">le hit protégé et payé</span></div>
+      <div class="track-row"><span class="track-num">09</span><span class="track-name">Business & droits — dossier complet ↓</span><span class="track-goal">le hit protégé et payé</span></div>
     </div>
   </div>
 
@@ -544,25 +668,188 @@
     </div>
   </div>
 
-  <!-- STEP 09 -->
+  <!-- STEP 09 (teaser) -->
   <div class="step">
     <div class="rail"><div class="rail-num">09</div></div>
     <div>
-      <svg class="step-icon" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h8M8 16h5" stroke-linecap="round"/></svg>
+      <svg class="step-icon" viewBox="0 0 24 24" stroke="var(--accent-2)"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h8M8 16h5" stroke-linecap="round"/></svg>
       <h3>Business & droits<em>Protège le hit</em></h3>
-      <p>Un hit qui explose sans les bases légales en place perd de l'argent, et parfois des droits.</p>
-      <div class="box">
-        <div class="box-label">À faire</div>
-        <ul class="checklist">
-          <li>Déclare tes œuvres (SACEM ou équivalent) avant la sortie.</li>
-          <li>Clarifie les splits — auteur, compositeur, producteur — par écrit avant la sortie, jamais après.</li>
-          <li>Choisis une distribution adaptée (DistroKid, Believe, TuneCore…).</li>
-          <li>Encadre les beats en licence (lease vs exclusivité) par un contrat clair.</li>
-        </ul>
+      <p>Un hit qui explose sans les bases légales en place perd de l'argent, et parfois des droits. C'est la partie la plus négligée par les artistes — et celle qui décide si le hit te rapporte vraiment. Elle mérite son propre dossier, développé juste en dessous.</p>
+    </div>
+  </div>
+  </div>
+
+  <!-- DOSSIER 09 — DEEP DIVE -->
+  <div class="dossier">
+    <div class="wrap">
+      <p class="dossier-eyebrow">Le dossier · Étape 09 approfondie</p>
+      <h2>Business & droits : le dossier complet</h2>
+      <p class="dossier-lede">C'est la partie qui décide si un hit <strong>te rapporte</strong> ce qu'il rapporte, ou si tu regardes quelqu'un d'autre encaisser à ta place. La plupart des artistes découvrent ces règles trop tard — après le succès, quand il est déjà trop tard pour bien négocier. Ce dossier se traite <strong>avant</strong> la sortie, morceau par morceau, sans exception.</p>
+      <div class="warn">⚠ Repères pratiques, pas un conseil juridique — fais toujours relire tes contrats importants par un avocat spécialisé musique ou un manager expérimenté.</div>
+
+      <div class="subsection">
+        <div class="subnum">9.1</div>
+        <div>
+          <h3>Comprendre les 3 familles de droits</h3>
+          <p>Un seul morceau fait vivre trois régimes de droits différents, avec des bénéficiaires potentiellement différents.</p>
+          <ul class="rule-list">
+            <li><b>Droit d'auteur</b> (texte + musique) → auteur, compositeur, éditeur. Géré par la <strong>SACEM</strong>.</li>
+            <li><b>Droits voisins des artistes-interprètes</b> (ta performance) → <strong>ADAMI</strong> (interprètes principaux), <strong>SPEDIDAM</strong> (musiciens/choristes).</li>
+            <li><b>Droits voisins des producteurs</b> (qui a financé l'enregistrement) → <strong>SPPF</strong> (indés) ou <strong>SCPP</strong> (majors).</li>
+          </ul>
+          <p style="margin-top:14px;">Retiens l'essentiel : composer, interpréter et financer l'enregistrement sont trois choses juridiquement distinctes, même quand c'est la même personne qui fait les trois.</p>
+        </div>
       </div>
+
+      <div class="subsection">
+        <div class="subnum">9.2</div>
+        <div>
+          <h3>Adhérer et déclarer à la SACEM</h3>
+          <ul class="rule-list">
+            <li><strong>Étape 1</strong> — constitue ton dossier d'adhésion (identité, œuvres, cotisation unique).</li>
+            <li><strong>Étape 2</strong> — une fois membre, déclare chaque titre via un Bulletin de Déclaration d'Œuvre (BDO), avant sa sortie.</li>
+            <li><strong>Étape 3</strong> — renseigne précisément les parts auteur / compositeur / éditeur : c'est ce document qui fixe qui touche quoi.</li>
+            <li><strong>Délai</strong> — dépose plusieurs semaines avant la mise en ligne (traitement, attribution d'un code ISWC).</li>
+          </ul>
+          <p style="margin-top:14px;">La SACEM gère le droit d'auteur, <strong>pas</strong> les droits voisins — ne confonds pas avec l'ADAMI/SPEDIDAM.</p>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subnum">9.3</div>
+        <div>
+          <h3>Construire une split-sheet avant chaque session</h3>
+          <p>Le document qui fixe qui a droit à quoi, signé par toutes les personnes ayant contribué — idéalement en sortant de session, jamais après un succès.</p>
+          <div class="table-scroll">
+            <table class="split-table">
+              <thead><tr><th>Rôle</th><th>Personne</th><th>Part</th></tr></thead>
+              <tbody>
+                <tr><td>Auteur (texte)</td><td>Toi</td><td><b>40 %</b></td></tr>
+                <tr><td>Compositeur (instru)</td><td>Beatmaker</td><td><b>40 %</b></td></tr>
+                <tr><td>Compositeur additionnel (topliner/feat)</td><td>Featuring</td><td><b>20 %</b></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul class="rule-list">
+            <li>Un featuring qui écrit ou modifie une partie a droit à une part d'auteur ; s'il ne fait qu'interpréter, il négocie un cachet, pas des parts.</li>
+            <li>Un topliner (mélodie ajoutée sur un instru existant) compte en général comme co-compositeur.</li>
+            <li><strong>Règle d'or : signer avant la sortie.</strong> Les négociations après un hit sont un champ de mines.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subnum">9.4</div>
+        <div>
+          <h3>S'inscrire comme interprète (droits voisins)</h3>
+          <ul class="rule-list">
+            <li><strong>ADAMI</strong> — pour les artistes principaux (lead vocal).</li>
+            <li><strong>SPEDIDAM</strong> — pour les musiciens et choristes d'accompagnement.</li>
+            <li>Inscription en ligne, gratuite, une fois dans ta carrière, puis déclaration enregistrement par enregistrement.</li>
+            <li>Ces sociétés collectent notamment sur la diffusion radio/publique et la copie privée.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subnum">9.5</div>
+        <div>
+          <h3>Le master : qui possède l'enregistrement ?</h3>
+          <p>Posséder la composition (édition) n'est <strong>pas</strong> la même chose que posséder l'enregistrement final (le <strong>master</strong>).</p>
+          <ul class="rule-list">
+            <li>Si tu t'autoproduis (home studio, tu payes tout), tu es "producteur phonographique" : tu possèdes le master.</li>
+            <li>Si un label finance l'enregistrement, il en devient souvent propriétaire — à négocier : durée de cession, clause de réversion.</li>
+            <li>C'est stratégique : le master permet de contrôler sync, rééditions, et l'exploitation du morceau sur le long terme.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subnum">9.6</div>
+        <div>
+          <h3>Licencier ses beats</h3>
+          <p>Pour les producteurs/hitmakers qui vendent des instrus à d'autres artistes.</p>
+          <div class="table-scroll">
+            <table class="split-table">
+              <thead><tr><th></th><th>Lease (non-exclusif)</th><th>Exclusif</th></tr></thead>
+              <tbody>
+                <tr><td>Prix</td><td>Bas (quelques dizaines d'€)</td><td>Élevé (centaines à milliers d'€)</td></tr>
+                <tr><td>Disponibilité</td><td>Vendu à plusieurs artistes</td><td>Retiré de la vente après achat</td></tr>
+                <tr><td>Propriété</td><td>Reste au beatmaker</td><td>Transférée ou licence longue durée</td></tr>
+                <tr><td>Usage</td><td>Souvent plafonné (streams, pas TV/radio)</td><td>Illimité selon contrat</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Clauses à toujours vérifier : territoire, durée, crédit obligatoire ("prod. by"), volume d'unités/streams couvert, fourniture des fichiers séparés (trackout).</p>
+          <p><strong>Ne jamais vendre ou acheter un beat sans contrat écrit — même entre potes.</strong></p>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subnum">9.7</div>
+        <div>
+          <h3>Choisir sa distribution et comprendre les deals</h3>
+          <ul class="rule-list">
+            <li><strong>Distributeur pur</strong> (DistroKid, TuneCore, CD Baby, Believe en mode distribution) — tu gardes 100 % de tes masters, mise en ligne rapide, coût en abonnement ou en %.</li>
+            <li><strong>Label / distribution deal</strong> — avance possible, mais cession de tout ou partie des masters : vérifie la durée, le taux de reversion, et si l'avance est <strong>récupérable</strong> (remboursée sur tes futurs revenus avant que tu touches quoi que ce soit).</li>
+            <li><strong>360 deal</strong> — le label prend un pourcentage sur tout (streams, concerts, merch, sync) : à n'accepter que si l'accompagnement justifie vraiment la part cédée.</li>
+            <li><strong>Signaux d'alerte</strong> — cession des droits "à perpétuité et pour le monde entier" sans contrepartie claire, absence de reddition de comptes, pas de clause de sortie du contrat.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subnum">9.8</div>
+        <div>
+          <h3>Suivre et encaisser ce qui te revient</h3>
+          <ul class="rule-list">
+            <li>Vérifie régulièrement tes comptes SACEM, distributeur, et sociétés de droits voisins.</li>
+            <li>Croise les chiffres (écoutes déclarées vs réel) pour repérer les anomalies.</li>
+            <li>Fais relire tout contrat important par un professionnel avant de signer — le coût d'une relecture est presque toujours inférieur au coût d'un mauvais contrat.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subnum">§</div>
+        <div>
+          <h3>Glossaire express</h3>
+          <dl class="glossary">
+            <div class="gterm"><dt>SACEM</dt><dd>Collecte les droits d'auteur (texte + musique).</dd></div>
+            <div class="gterm"><dt>SDRM</dt><dd>Gère la reproduction mécanique (copies, streaming).</dd></div>
+            <div class="gterm"><dt>ADAMI / SPEDIDAM</dt><dd>Droits voisins des artistes-interprètes.</dd></div>
+            <div class="gterm"><dt>SPPF / SCPP</dt><dd>Droits voisins des producteurs de phonogrammes.</dd></div>
+            <div class="gterm"><dt>Master</dt><dd>L'enregistrement final, distinct de la composition.</dd></div>
+            <div class="gterm"><dt>Split-sheet</dt><dd>Répartition des parts, signée avant la sortie.</dd></div>
+            <div class="gterm"><dt>ISWC / ISRC</dt><dd>Identifiants uniques d'une œuvre / d'un enregistrement.</dd></div>
+            <div class="gterm"><dt>Avance récupérable</dt><dd>Versée par un label, remboursée avant tout reversement.</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subnum">✓</div>
+        <div>
+          <h3>Checklist avant chaque sortie</h3>
+          <div class="final-checklist">
+            <div class="final-checklist-title">À cocher, morceau par morceau</div>
+            <ul>
+              <li>Split-sheet signée par tous les contributeurs</li>
+              <li>Œuvre déclarée à la SACEM (BDO envoyé)</li>
+              <li>Inscription ADAMI/SPEDIDAM à jour si interprète/musicien</li>
+              <li>Statut du master clarifié (qui possède quoi)</li>
+              <li>Contrats de beats/samples externes signés et archivés</li>
+              <li>Distribution choisie, métadonnées vérifiées (ISRC, crédits, date)</li>
+              <li>Contrat de label/distribution relu par un professionnel si applicable</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
+  <div class="wrap">
   <!-- ROADMAP -->
   <div class="section">
     <p class="section-head">Plan d'action</p>
@@ -577,12 +864,12 @@
       <div class="phase">
         <div class="phase-range">Semaines 5–8</div>
         <h4>Écriture & prod</h4>
-        <p>Écrire et enregistrer 5 titres complets avec la méthode hook-d'abord, mixer les 2 meilleurs.</p>
+        <p>Écrire et enregistrer 5 titres complets avec la méthode hook-d'abord, mixer les 2 meilleurs, signer les split-sheets dès la fin de chaque session.</p>
       </div>
       <div class="phase">
         <div class="phase-range">Semaines 9–12</div>
         <h4>Sortie</h4>
-        <p>Tester les 2 titres, garder le plus fort, préparer la stratégie et sortir avec un vrai plan de contenu.</p>
+        <p>Tester les titres, déclarer l'œuvre retenue à la SACEM, vérifier le statut du master, choisir la distribution, sortir avec un vrai plan de contenu.</p>
       </div>
     </div>
   </div>
@@ -596,7 +883,8 @@
       <li>Cacher le hook après 40 secondes de couplet.</li>
       <li>Ne jamais tester le mix sur une enceinte de téléphone avant de sortir.</li>
       <li>Sortir un morceau sans aucune stratégie de contenu autour.</li>
-      <li>Négliger les splits et les droits d'auteur avant la sortie — le régler après, c'est souvent trop tard.</li>
+      <li><strong>Régler les splits et les droits après la sortie plutôt qu'avant</strong> — la cause n°1 de conflits entre artistes qui percent ensemble.</li>
+      <li>Signer un contrat de label sans le faire relire par un professionnel.</li>
     </ul>
   </div>
 
@@ -618,8 +906,12 @@
         <div class="tool-list">DistroKid, Believe, TuneCore, CD Baby</div>
       </div>
       <div class="tool">
-        <div class="tool-cat">Droits</div>
-        <div class="tool-list">SACEM ou société de gestion équivalente</div>
+        <div class="tool-cat">Droits d'auteur</div>
+        <div class="tool-list">SACEM</div>
+      </div>
+      <div class="tool">
+        <div class="tool-cat">Droits voisins</div>
+        <div class="tool-list">ADAMI, SPEDIDAM, SPPF/SCPP</div>
       </div>
       <div class="tool">
         <div class="tool-cat">Test terrain</div>
@@ -629,7 +921,7 @@
   </div>
 
   <div class="closer">
-    <p>Un hit n'est jamais un accident répété par hasard — c'est une chaîne de production maîtrisée, étape par étape. Reprends cette liste à chaque nouveau morceau : c'est la répétition de la méthode qui fait le hitmaker, pas le coup d'éclat isolé.</p>
+    <p>Un hit n'est jamais un accident répété par hasard. C'est une chaîne de production maîtrisée, étape par étape — et un dossier de droits réglé avant que le morceau parte, pas après. C'est la répétition de la méthode, créative <em>et</em> business, qui fait le hitmaker.</p>
   </div>
 
 </div>

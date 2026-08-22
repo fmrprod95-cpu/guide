@@ -2,7 +2,7 @@
 
 Un hitmaker n'est pas quelqu'un qui a eu un coup de chance une fois. C'est quelqu'un qui a transformé la fabrication d'un hit en **savoir-faire répétable** : un son reconnaissable, une méthode d'écriture, une exécution vocale qui vend le texte, un mix qui tient sur toutes les enceintes, et une stratégie de sortie qui donne au morceau une vraie chance d'exploser.
 
-Ce guide déroule les 9 étapes de la chaîne de fabrication, dans l'ordre où elles comptent vraiment.
+**Ce guide déroule 8 étapes créatives, puis approfondit ce qui fait vraiment vivre un hitmaker sur la durée : le dossier business & droits (étape 9), la partie que la plupart des artistes négligent — et qui coûte le plus cher à négliger.**
 
 ---
 
@@ -18,7 +18,7 @@ Ce guide déroule les 9 étapes de la chaîne de fabrication, dans l'ordre où e
 | 06 | Test & itère | Vérifier que ça marche avant de sortir |
 | 07 | Stratégie de sortie | Donner au morceau une vraie fenêtre de lancement |
 | 08 | Réseau & collabs | S'entourer des bonnes personnes |
-| 09 | Business & droits | Protéger et monétiser le hit |
+| **09** | **Business & droits** | **Protéger, déclarer et monétiser le hit — dossier complet ci-dessous** |
 
 ---
 
@@ -26,130 +26,188 @@ Ce guide déroule les 9 étapes de la chaîne de fabrication, dans l'ordre où e
 
 Avant de chercher "le" hit, il faut un son qu'on peut reconnaître sans voir ton nom.
 
-**À faire :**
 - Liste 10 morceaux (toi ou des refs) qui te représentent le mieux.
 - Identifie ce qui les relie : type de percus, texture de basse, tempo de prédilection, ambiance mélodique.
-- Construis une palette d'outils fixe (kits de sons, samples, VST) qui devient ta signature — pas besoin d'en changer à chaque morceau.
-
----
+- Construis une palette d'outils fixe (kits de sons, samples, VST) qui devient ta signature.
 
 ## 02 — Le beat qui tape
 
-Un instru qui n'accroche pas dans les 4 premières secondes ne sera jamais écouté jusqu'au bout, aussi bon soit le texte.
+Un instru qui n'accroche pas dans les 4 premières secondes ne sera jamais écouté jusqu'au bout.
 
-**À faire :**
-- Travaille des drums qui claquent : kick et snare doivent se sentir avant même que la mélodie arrive.
-- Laisse de l'espace pour la voix — ne remplis pas tout le spectre fréquentiel.
-- Structure standard à garder en tête : intro → couplet → hook → couplet → hook → pont → hook → outro.
-- Outils courants : FL Studio, Ableton Live, banques de samples, plugins de synthèse et de drums.
-
----
+- Des drums qui claquent dès l'entrée.
+- Laisse de l'espace pour la voix, ne remplis pas tout le spectre.
+- Structure : intro → couplet → hook → couplet → hook → pont → hook → outro.
 
 ## 03 — Le hook qui reste en tête
 
-Le refrain est ce qui décide si le morceau devient un hit ou reste un bon morceau parmi d'autres.
-
-**Formule qui marche :**
-- **Répétition** — la mélodie/phrase revient assez pour s'ancrer.
-- **Simplicité** — une ligne mélodique qu'on peut fredonner après une écoute.
-- **Payoff émotionnel** — le hook doit libérer une tension posée par le couplet.
-
-**Méthode :** écris le hook **avant** les couplets. Sur les plateformes courtes (TikTok, Reels), tu as environ 3 secondes pour capter — le hook doit pouvoir vivre seul, en extrait.
-
----
+- **Répétition** — la mélodie/phrase s'ancre dans l'oreille.
+- **Simplicité** — fredonnable après une seule écoute.
+- **Payoff émotionnel** — le hook libère la tension posée par le couplet.
+- Écris le hook **avant** les couplets ; sur formats courts (TikTok/Reels), tu as ~3 secondes pour capter.
 
 ## 04 — Delivery & flow
 
-Le meilleur texte du monde ne sert à rien si l'interprétation ne le vend pas.
-
-**À faire :**
-- Travaille le flow en rapport avec le groove du beat, pas contre lui.
+- Travaille le flow avec le groove du beat, pas contre lui.
 - Soigne la diction et le placement des respirations.
-- Utilise les ad-libs avec intention (pas en remplissage systématique).
-- Fais plusieurs prises (takes) et compose la meilleure version phrase par phrase (comping).
-
----
+- Ad-libs avec intention, pas en remplissage.
+- Multiplie les prises, compose la meilleure version phrase par phrase (comping).
 
 ## 05 — Mix & mastering radio-ready
 
-Un hit qui sonne mal sur un haut-parleur de téléphone perd 90% de son public.
-
-**Checklist avant export :**
-- Équilibre voix/instru clair, la voix doit rester devant sans écraser le beat.
-- Vérifie la compatibilité mono (beaucoup d'écoutes se font sur un seul haut-parleur).
-- Contrôle le loudness (niveaux LUFS) pour coller aux standards streaming.
-- Compare ton mix en A/B avec des hits déjà sortis dans ton style.
-- Fais appel à un ingénieur du son si le mix ne tient pas la comparaison.
-
----
+- Équilibre voix/instru clair, la voix reste devant.
+- Vérifie la compatibilité mono.
+- Contrôle le loudness (LUFS) pour coller aux standards streaming.
+- Compare en A/B avec des hits déjà sortis dans ton style.
+- Fais appel à un ingé son si besoin.
 
 ## 06 — Test & itère
 
-Un hit se valide avant de sortir, pas après.
-
-**À faire :**
-- Fais écouter le morceau à un vrai public test (freestyle sessions, groupe restreint, snippet privé).
-- Observe précisément la réaction sur les 15 premières secondes — c'est là que tout se joue.
-- Si le hook ou le mix ne fait pas réagir, retravaille avant la sortie officielle.
-
----
+- Fais écouter à un vrai public test avant la sortie officielle.
+- Observe la réaction sur les 15 premières secondes.
+- Retravaille le hook ou le mix si ça ne réagit pas.
 
 ## 07 — Stratégie de sortie
 
-Un bon morceau sans plan de sortie reste un bon morceau que personne n'entend.
-
-**À faire :**
-- Teaser l'extrait le plus fort (le hook) en boucle sur les réseaux avant la sortie.
+- Teaser le hook en boucle sur les réseaux avant la sortie.
 - Prépare un visuel (cover, clip ou lyric video) à la hauteur du morceau.
-- Programme un pré-save et une date de sortie fixe.
-- Planifie le contenu de J-14 à J+30 (teasers, coulisses, extraits, react vidéos).
-
----
+- Pré-save + date de sortie fixe.
+- Plan de contenu de J-14 à J+30.
 
 ## 08 — Réseau & collabs
 
-Aucun hitmaker ne construit sa carrière seul dans sa chambre indéfiniment.
-
-**À faire :**
-- Multiplie les sessions studio avec d'autres artistes et producteurs.
+- Multiplie les sessions studio avec d'autres artistes/producteurs.
 - Cherche des featurings stratégiques, pas juste des gros noms.
-- Connecte-toi aux A&R, managers et labels de ta scène.
-- Reste présent dans les cercles actifs (open mic, battles, soirées, groupes de prod).
+- Connecte-toi aux A&R, managers, labels.
+- Reste présent dans les cercles actifs (open mic, battles, soirées).
 
 ---
 
-## 09 — Business & droits : protège le hit
+# 09 — Business & droits : le dossier complet
 
-Un hit qui explose sans les bases légales en place perd de l'argent et parfois des droits.
+C'est la partie qui décide si un hit **te rapporte** ce qu'il rapporte, ou si tu regardes quelqu'un d'autre encaisser à ta place. La plupart des artistes découvrent ces règles trop tard — après le succès, quand il est déjà trop tard pour bien négocier. Ce dossier se traite **avant** la sortie, morceau par morceau, sans exception.
 
-**À faire :**
-- Déclare tes œuvres (SACEM ou équivalent) avant la sortie.
-- Clarifie les splits (auteur, compositeur, producteur) par écrit avant que le morceau sorte, jamais après.
-- Choisis une distribution adaptée (DistroKid, Believe, TuneCore, etc.).
-- Encadre les beats en licence (lease vs exclusivité) par un contrat clair.
+> ⚠️ Ce guide donne des repères pratiques, pas un conseil juridique. Fais toujours relire tes contrats importants par un avocat spécialisé musique ou un manager expérimenté.
+
+### 9.1 — Comprendre les 3 familles de droits
+
+Un seul morceau fait vivre trois régimes de droits différents, avec des bénéficiaires potentiellement différents :
+
+1. **Droit d'auteur** (texte + musique) → auteur, compositeur, éditeur. Géré en France par la **SACEM**.
+2. **Droits voisins des artistes-interprètes** (ta performance vocale/instrumentale) → gérés par l'**ADAMI** (interprètes principaux) et la **SPEDIDAM** (musiciens/choristes d'accompagnement).
+3. **Droits voisins des producteurs de phonogrammes** (celui qui a financé l'enregistrement — souvent toi en auto-prod, ou un label) → collectés via la **SPPF** (indépendants) ou la **SCPP** (majors).
+
+Retiens l'essentiel : **composer un texte, l'interpréter, et financer l'enregistrement sont trois choses juridiquement distinctes**, même quand c'est la même personne qui fait les trois.
+
+### 9.2 — Adhérer et déclarer à la SACEM
+
+- **Étape 1 :** constitue ton dossier d'adhésion (identité, œuvres, cotisation unique).
+- **Étape 2 :** une fois membre, déclare chaque titre via un **Bulletin de Déclaration d'Œuvre (BDO)**, avant sa sortie.
+- **Étape 3 :** renseigne précisément les parts auteur / compositeur / éditeur — c'est ce document qui fixe qui touche quoi.
+- **Délai :** dépose plusieurs semaines avant la mise en ligne (traitement, attribution d'un code ISWC).
+- La SACEM gère le droit d'auteur, **pas** les droits voisins — ne confonds pas avec l'ADAMI/SPEDIDAM.
+
+### 9.3 — Construire une split-sheet avant chaque session
+
+Une **split-sheet** est le document qui fixe qui a droit à quoi sur un morceau, signé par toutes les personnes ayant contribué à la création — idéalement en sortant de session, jamais après un succès.
+
+**Exemple concret :**
+
+| Rôle | Personne | Part |
+|---|---|---|
+| Auteur (texte) | Toi | 40 % |
+| Compositeur (instru) | Beatmaker | 40 % |
+| Compositeur additionnel (topliner/feat) | Featuring | 20 % |
+
+- Un featuring qui écrit ou modifie une partie a droit à une part d'auteur ; s'il ne fait qu'interpréter, il négocie un cachet, pas des parts.
+- Un topliner (mélodie ajoutée sur un instru existant) compte en général comme co-compositeur.
+- **Règle d'or : signer avant la sortie.** Les négociations après un hit sont un champ de mines — plus personne n'a intérêt à céder.
+
+### 9.4 — S'inscrire comme interprète (droits voisins)
+
+- **ADAMI** : pour les artistes principaux (lead vocal).
+- **SPEDIDAM** : pour les musiciens et choristes d'accompagnement.
+- Inscription en ligne, gratuite, à faire une fois dans ta carrière, puis à déclarer enregistrement par enregistrement.
+- Ces sociétés collectent notamment sur la diffusion radio/publique et la copie privée.
+
+### 9.5 — Le master : qui possède l'enregistrement ?
+
+Posséder la composition (édition) **n'est pas la même chose** que posséder l'enregistrement final (le **master**).
+
+- Si tu t'autoproduis (home studio, tu payes tout), tu es "producteur phonographique" : **tu possèdes le master**.
+- Si un label finance l'enregistrement, il en devient souvent propriétaire — à négocier : durée de cession, clause de réversion.
+- C'est stratégique : le master permet de contrôler sync, rééditions, et l'exploitation du morceau sur le long terme. C'est pour récupérer ce contrôle que des artistes réenregistrent parfois leurs propres albums.
+
+### 9.6 — Licencier ses beats (pour les producteurs/hitmakers qui vendent des instrus)
+
+| | Lease (non-exclusif) | Exclusif |
+|---|---|---|
+| Prix | Bas (généralement quelques dizaines d'euros) | Élevé (plusieurs centaines à plusieurs milliers) |
+| Disponibilité | Vendu à plusieurs artistes | Retiré de la vente après achat |
+| Propriété | Reste au beatmaker | Transférée ou licence exclusive longue durée |
+| Usage | Souvent plafonné (streams, pas de diffusion TV/radio) | Illimité selon contrat |
+
+**Clauses à toujours vérifier :** territoire, durée, crédit obligatoire ("prod. by"), volume d'unités/streams couvert, fourniture ou non des fichiers séparés (trackout).
+
+**Ne jamais vendre ou acheter un beat sans contrat écrit — même entre potes.**
+
+### 9.7 — Choisir sa distribution et comprendre les deals
+
+- **Distributeur pur** (DistroKid, TuneCore, CD Baby, Believe en mode distribution) : tu gardes 100 % de tes masters, mise en ligne rapide, coût en abonnement ou en %.
+- **Label / distribution deal** : avance possible, mais cession de tout ou partie des masters — vérifie la durée, le taux de reversion, et si l'avance est **récupérable** (remboursée sur tes futurs revenus avant que tu touches quoi que ce soit).
+- **360 deal** : le label prend un pourcentage sur tout (streams, concerts, merch, sync) — à n'accepter que si l'accompagnement (promo, budget clip, réseau) justifie vraiment la part cédée.
+- **Signaux d'alerte :** cession des droits "à perpétuité et pour le monde entier" sans contrepartie claire, absence de clause de reddition de comptes (rapports réguliers de royalties), pas de clause de sortie du contrat.
+
+### 9.8 — Suivre et encaisser ce qui te revient
+
+- Vérifie régulièrement tes comptes SACEM, distributeur, et sociétés de droits voisins.
+- Croise les chiffres (écoutes déclarées vs réel) pour repérer les anomalies.
+- Fais relire tout contrat important par un professionnel avant de signer — le coût d'une relecture est presque toujours inférieur au coût d'un mauvais contrat.
+
+### Glossaire express
+
+- **SACEM** — collecte les droits d'auteur (texte + musique).
+- **SDRM** — gère la reproduction mécanique (copies, streaming) pour auteurs/éditeurs.
+- **ADAMI / SPEDIDAM** — droits voisins des artistes-interprètes.
+- **SPPF / SCPP** — droits voisins des producteurs de phonogrammes (indés / majors).
+- **Master** — l'enregistrement final, distinct de la composition.
+- **Split-sheet** — document de répartition des parts, signé avant la sortie.
+- **ISWC / ISRC** — identifiants uniques d'une œuvre (ISWC) et d'un enregistrement (ISRC).
+- **Lease / exclusif** — types de licences de beats.
+- **Avance récupérable** — somme versée par un label, remboursée par tes futurs revenus avant que tu touches quoi que ce soit.
+
+### Checklist avant chaque sortie
+
+- [ ] Split-sheet signée par tous les contributeurs
+- [ ] Œuvre déclarée à la SACEM (BDO envoyé)
+- [ ] Inscription ADAMI/SPEDIDAM à jour si interprète/musicien
+- [ ] Statut du master clarifié (qui possède quoi)
+- [ ] Contrats de beats/samples externes signés et archivés
+- [ ] Distribution choisie, métadonnées vérifiées (ISRC, crédits, date)
+- [ ] Contrat de label/distribution relu par un professionnel si applicable
 
 ---
 
 ## Roadmap sur 90 jours
 
 **Semaines 1–4 — Fondations**
-Définir le son signature, monter le setup (DAW, plugins, samples), produire 10 idées de beats.
+Définir le son signature, monter le setup, produire 10 idées de beats.
 
 **Semaines 5–8 — Écriture & prod**
-Écrire et enregistrer 5 titres complets en appliquant la méthode hook-d'abord, mixer les 2 meilleurs.
+Écrire et enregistrer 5 titres complets (méthode hook-d'abord), mixer les 2 meilleurs, **signer les split-sheets dès la fin de chaque session**.
 
 **Semaines 9–12 — Sortie**
-Tester les 2 titres, choisir le plus fort, préparer la stratégie de sortie, sortir le premier single avec un vrai plan de contenu.
+Tester les titres, déclarer l'œuvre retenue à la SACEM, vérifier le statut du master, choisir la distribution, sortir avec un vrai plan de contenu.
 
 ---
 
 ## Erreurs qui plombent un hit
 
-- Empiler des sons qui ne racontent pas la même histoire (pas de cohérence sonore).
+- Empiler des sons qui ne racontent pas la même histoire.
 - Cacher le hook après 40 secondes de couplet.
 - Ne jamais tester le mix sur une enceinte de téléphone avant de sortir.
 - Sortir un morceau sans aucune stratégie de contenu autour.
-- Négliger les splits et les droits d'auteur avant la sortie — le régler après, c'est souvent trop tard.
+- **Régler les splits et les droits après la sortie plutôt qu'avant — la cause n°1 de conflits entre artistes qui percent ensemble.**
+- Signer un contrat de label sans le faire relire par un professionnel.
 
 ---
 
@@ -158,9 +216,10 @@ Tester les 2 titres, choisir le plus fort, préparer la stratégie de sortie, so
 - **Production :** FL Studio, Ableton Live, Logic Pro.
 - **Mix/Master :** plugins d'EQ, compression, limiteur ; référence A/B avec des hits du moment.
 - **Distribution :** DistroKid, Believe, TuneCore, CD Baby.
-- **Droits :** SACEM (ou société de gestion équivalente selon le pays).
+- **Droits d'auteur :** SACEM.
+- **Droits voisins :** ADAMI, SPEDIDAM, SPPF/SCPP.
 - **Test terrain :** groupes privés, freestyle sessions, snippets sur les réseaux.
 
 ---
 
-Un hit n'est jamais un accident répété par hasard. C'est une chaîne de production maîtrisée, étape par étape. Reprends cette liste à chaque nouveau morceau — c'est la répétition de la méthode qui fait le hitmaker, pas le coup d'éclat isolé.
+Un hit n'est jamais un accident répété par hasard. C'est une chaîne de production maîtrisée, étape par étape — et un dossier de droits réglé avant que le morceau parte, pas après. C'est la répétition de la méthode, créative **et** business, qui fait le hitmaker.
